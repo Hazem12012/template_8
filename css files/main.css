@@ -22,14 +22,7 @@ body {
   box-shadow: 0 0 30px #0ef;
   overflow: hidden;
 }
-.wrapper :hover {
-  animation: animation 1s linear infinite;
-}
-@keyframes animation {
-  100% {
-    filter: hue-rotate(360deg);
-  }
-}
+
 .form-wrapper {
   display: flex;
   justify-content: center;
